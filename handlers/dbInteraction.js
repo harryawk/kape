@@ -1,10 +1,15 @@
 'use strict';
 
-module.exports.hello = (event, context, callback) => {
+var asdf;
+
+module.exports.insertRecord = (event, context, callback) => {
+	hello();
+	console.log('---- Event --- ' + JSON.stringify(event, null, 2));
+	console.log('---- context --- ' + JSON.stringify(context, null, 2));
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless v1.0! Your function executed successfully!',
+      message: 'Record inserted',
       input: event,
     }),
   };
@@ -14,3 +19,7 @@ module.exports.hello = (event, context, callback) => {
   // Use this code if you don't use the http event with the LAMBDA-PROXY integration
   // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
 };
+
+function hello () {
+	console.log("Hello");
+}

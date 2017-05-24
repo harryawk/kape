@@ -56,9 +56,13 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handlers/handler.hello
     events:
     	- http: GET /hello-world
+  insertRecord:
+    handler: handlers/dbInteraction.insertRecord
+    events:
+    	- http: POST /insert-record/$
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events

@@ -1,0 +1,7 @@
+buat backend explore ini dulu aja
+- knex migrate -- buat migrasi 
+- bookshelf -- ORM
+- bluebird -- Promise (memastikan async process done)
+- lodash -- 
+- moment -- date API
+- sql transaction -- 

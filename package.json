@@ -11,8 +11,21 @@
     "serverless-offline": "^3.14.0"
   },
   "dependencies": {
+    "bookshelf": "^0.10.3",
+    "chai": "^3.5.0",
+    "knex": "^0.6.10",
     "mocha": "^3.4.1",
-    "serverless": "^1.13.2"
+    "mysql": "^2.13.0",
+    "serverless": "^1.13.2",
+    "sqlite3": "^3.1.8"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryawk/kape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harryawk/kape/issues"
+  },
+  "homepage": "https://github.com/harryawk/kape#readme",
   "description": ""
 }
