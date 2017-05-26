@@ -30,5 +30,4 @@ function connectDb() {
     }
   });
   console.log("----- DB Ready -----");
-  // console.log(knex);
 }

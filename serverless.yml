@@ -62,7 +62,7 @@ functions:
   insertRecord:
     handler: handlers/dbInteraction.insertRecord
     events:
-    	- http: POST /insert-record/$
+    	- http: POST /insert-record/{id}
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
