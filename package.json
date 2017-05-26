@@ -11,9 +11,11 @@
     "serverless-offline": "^3.14.0"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
     "bookshelf": "^0.10.3",
     "chai": "^3.5.0",
     "knex": "^0.6.10",
+    "loadash": "0.0.1",
     "mocha": "^3.4.1",
     "mysql": "^2.13.0",
     "serverless": "^1.13.2",
