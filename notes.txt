@@ -2,6 +2,10 @@ buat backend explore ini dulu aja
 - knex migrate -- buat migrasi 
 - bookshelf -- ORM
 - bluebird -- Promise (memastikan async process done)
-- lodash -- 
+- lodash -- performance tuner for iterating array, composite functions, and testing values
 - moment -- date API
-- sql transaction -- 
+- sql transaction -- DB Transaction SQL
+
+blog
+1. users => id, name, email
+2. post => id, title, author, content, created_at
